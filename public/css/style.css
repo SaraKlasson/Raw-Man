@@ -9,3 +9,12 @@
     opacity: 0.88;
     padding: 5%;
 }
+
+/* Small only */
+@media screen and (max-width: 600px){
+    html, .container {
+        width: 100% !important;
+        margin: 0;
+      
+    }
+}
